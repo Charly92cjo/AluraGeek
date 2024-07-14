@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Yoda Bebé",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_882597-MLU74227120391_012024-O.webp",
+      "precio": 199.99
+    },
+    {
+      "id": "2",
+      "nombre": "Stormtrooper",
+      "imagen": "https://files.ekmcdn.com/stormtrooper/images/original-stormtrooper-battle-spec-mk3-helmet-762-p.png?w=1000&h=1000&v=CC0E0141-046F-444C-A5B6-833EEEBEF1DF",
+      "precio": 3299
+    },
+    {
+      "id": "3",
+      "nombre": "Game Boy Classic",
+      "imagen": "https://i.etsystatic.com/6017061/r/il/a95967/881348688/il_570xN.881348688_79dt.jpg",
+      "precio": 59.99
+    },
+    {
+      "id": "4",
+      "nombre": "Wolverine",
+      "imagen": "https://m.media-amazon.com/images/I/518IegksMGL._AC_SL1020_.jpg",
+      "precio": 759
+    },
+    {
+      "id": "5",
+      "nombre": "Taza Game of Thrones",
+      "imagen": "https://i0.wp.com/gudolarte.com/wp-content/uploads/2023/03/GOT-taza-06-blanca-scaled.jpg?fit=2560%2C2560&ssl=1",
+      "precio": 649.99
+    },
+    {
+      "id": "6",
+      "nombre": "Kunai Ninja",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_988242-MLA49306646399_032022-O.webp",
+      "precio": 1790.99
+    },
+    {
+      "id": "7",
+      "nombre": "Martillo de Thor",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_745795-MLA43535131274_092020-O.webp",
+      "precio": 2390.99
+    },
+    {
+      "id": "8",
+      "nombre": "Patitos con Broche",
+      "imagen": "https://oportunidades-vip.com.ar/wp-content/uploads/2024/05/D_667966-MLA76340535949_052024-F.jpg",
+      "precio": 19.99
+    },
+    {
+      "id": "9",
+      "nombre": "Casco Iron Man",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_780701-MLA47197201760_082021-O.webp",
+      "precio": 4999.99
+    },
+    {
+      "id": "10",
+      "nombre": "Deadpool",
+      "imagen": "https://m.media-amazon.com/images/I/51n2ahjzMOL._AC_UF894,1000_QL80_.jpg",
+      "precio": 1019.99
+    }
+  ]
+}

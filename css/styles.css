@@ -1,0 +1,308 @@
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*header*/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5300c8;
+  height: 96px;
+  width: 100%;
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+}
+
+.logo {
+  height: 56px;
+}
+
+.contenedor-logo {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* seccion principal*/
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*seccion agregar productos*/
+
+.agregar-productos {
+  display: flex;
+  flex-direction: column;
+  height: 517px;
+  text-align: center;
+  margin-top: 129px;
+  padding-top: 40px;
+}
+
+.titulo-productos {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.input {
+  width: 85%;
+  height: 58px;
+  border-radius: 28px;
+  border: 3px solid #03318c;
+  margin-top: 40px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  color: #03318c;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.input:focus {
+  outline-color: #ff0000;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  color: #03318c;
+}
+
+.input-submit,
+.input-limpiar {
+  width: 164px;
+  height: 55px;
+  border-radius: 15px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: "IBM Plex Mono", monospace;
+  cursor: pointer;
+}
+
+.input-submit:active,
+.input-limpiar:active {
+  transform: scale(0.9);
+}
+
+.input-limpiar {
+  border: 3px solid #03318c;
+  background-color: #ffffff;
+  color: #03318c;
+}
+.input-limpiar:hover {
+  border: 3px solid #0055ff;
+  color: #0053f8d2;
+}
+
+.input-submit {
+  background-color: #03318c;
+  color: #ffffff;
+  margin-right: 13px;
+}
+.input-submit:hover {
+  background-color: #0055ff;
+}
+
+.parrafo-enviar {
+  display: none;
+  margin-top: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+}
+
+.parrafo-nombre,
+.parrafo-imagen,
+.parrafo-precio {
+  margin-top: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #ff0000;
+}
+
+/* seccion productos */
+
+.productos {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.titulo-seccion-dos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-y: auto;
+  height: 650px;
+  padding: 16px;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.parrafo-error-contenedor {
+  color: red;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 22px;
+}
+
+.card-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+  width: 196px;
+  height: 258px;
+  text-align: left;
+  border-radius: 10px;
+  border: 3px black solid;
+  color: #ffffff;
+  background-color: #5d04d9;
+  box-shadow: -5px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 190px;
+  height: 174px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+}
+
+.imagen-producto {
+  max-width: 100%;
+  max-height: 100%;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagen-producto:hover {
+  transform: scale(1.2);
+}
+
+.nombre-producto {
+  margin-top: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.contenedor-precio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.trash-icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+/*seccion footer*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 168px;
+  background-color: #5300c8;
+  box-shadow: 0 -10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.parrafo-footer {
+  color: #ffffff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.parrafo-footer:last-child {
+  font-weight: 200;
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) {
+  .contenedor-principal {
+    align-items: center;
+  }
+
+  .agregar-productos {
+    width: 400px;
+  }
+
+  .contenedor-productos {
+    width: 700px;
+    box-shadow: -12px 10px 5px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 1280px) {
+  .contenedor-principal {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .productos {
+    margin-top: 129px;
+  }
+
+  .contenedor-productos {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 715px;
+    height: 900px;
+  }
+
+  .parrafo-error-contenedor {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-producto {
+    margin-bottom: 20px;
+  }
+
+  .agregar-productos {
+    width: 400px;
+  }
+}

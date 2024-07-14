@@ -1,0 +1,19 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn json-server --watch db.json --port 3001"
+  },
+  "keywords": [
+    "alurageek",
+    "challenge",
+    "one"
+  ],
+  "author": "Carlos Otero",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
